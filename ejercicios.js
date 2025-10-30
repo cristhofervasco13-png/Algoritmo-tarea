@@ -27,7 +27,6 @@ function InvertirNombre() {
   alert("Su nombre invertido es: " + nombreInvertido);
 }
 //Ejercicio 4
-//comparar nombres por longitud
 function CompararNombres() {
   let nombre1 = prompt("Ingrese el primer nombre:");
   let nombre2 = prompt("Ingrese el segundo nombre:");
@@ -40,7 +39,6 @@ function CompararNombres() {
   }
 }
 //Ejercicio 5
-//obtener iniciales de un cargo profesional
 function ObtenerIniciales() {
   let cargo = prompt("Ingrese su cargo profesional:");
   let iniciales = "";
@@ -54,7 +52,6 @@ function ObtenerIniciales() {
 }
 //bloque2
 //Ejercicio 1
-//contar caracteres de varias frases publicitarias
 function ContarCaracteresFrases() {
   let totalCaracteres = 0;
   let cantidadFrases = parseInt(prompt("¿Cuántas frases desea ingresar?"));
@@ -69,7 +66,6 @@ function ContarCaracteresFrases() {
   alert("El total de caracteres en las frases ingresadas es: " + totalCaracteres);
 }
 //Ejercicio 2
-//Dado un arreglo de titulos y una vocal especifica, contar cuantos caracteres tiene cada una
 function ContarVocalesEnTitulos() {
   let cantidadTitulos = parseInt(prompt("¿Cuántos títulos desea ingresar?"));
   let vocal = prompt("Ingrese la vocal que desea contar:");
@@ -89,7 +85,6 @@ function ContarVocalesEnTitulos() {
   }
 }
 //Ejercicio 3
-//invertir los nombres de varios productos
 function InvertirNombresProductos() {
   let cantidadProductos = parseInt(prompt("¿Cuántos productos desea ingresar?"));
   let nombresProductos = [];
@@ -106,7 +101,6 @@ function InvertirNombresProductos() {
   }
 }
 //Ejercicio 4
-//comparar longitudes de nombres de ciudades
 function CompararNombresCiudades() {
   let cantidadCiudades = parseInt(prompt("¿Cuántas ciudades desea comparar?"));
   let nombresCiudades = [];
@@ -125,7 +119,6 @@ function CompararNombresCiudades() {
   alert("La ciudad más larga es: " + ciudadMasLarga);
 }
 //Ejercicio 5
-//obtener iniciales de varios cargos profesionales
 function ObtenerInicialesCargos() {
   let n=parseInt(prompt("¿Cuántos cargos profesionales desea ingresar?"));
   let cargos=[];
@@ -148,7 +141,6 @@ function ObtenerInicialesCargos() {
 ObtenerInicialesCargos();
 //bloque3
 //Ejercicio 1
-//Dadas n calificaciones de estudiantes, calcular el promedio solo de aquellas que sean mayores o iguales a 70
 function CalificacionesPromedio (){
 let n= parseInt(prompt("ingrese el numero de calificaciones: "));
 let calificaciones= []
@@ -172,7 +164,6 @@ let calificaciones= []
   }
 }
 //Ejercicio 2
-//ingresar n numeros y contar cuantos son negativos
 function ContarNumerosNegativos() {
   let n= parseInt(prompt("ingrese la cantidad de numeros: "));
   let numeros=[]
@@ -190,7 +181,6 @@ function ContarNumerosNegativos() {
  alert("hay"+  c  +"numeros negativos")
 }
 //ejercicio 3
-// dadas las edades de un grupo de personas, obtener el promedio de los mayores de edad y de los menores de edad
 function PromedioEdadesMayoresMenores() {
   let n = parseInt(prompt("Ingrese el número de edades: "));
   let edades = [];
@@ -225,7 +215,6 @@ function PromedioEdadesMayoresMenores() {
   }
 }
 //Ejercicio 4
-//Dado un solo numero mostrar su tabla de multiplicar del 1 al 10
 function TablaMultiplicar() {
   let numero = parseInt(prompt("Ingrese un número para mostrar su tabla de multiplicar:"));
   for (let i = 1; i <= 10; i++) {
@@ -234,7 +223,6 @@ function TablaMultiplicar() {
   }
 }
 //Ejercicio 5
-//ingresar n numeros y calcular el promedio de los numros pares y de los impares por separado
 function PromedioParesImpares() {
   let n = parseInt(prompt("Ingrese la cantidad de números: "));
   let sumaPares = 0;
@@ -266,7 +254,6 @@ function PromedioParesImpares() {
 }
 // bloque4
 //Ejercicio 1
-//Dada una lista de calificaciones, calcular el promedio solo de aquellas que sean mayores o iguales a 70 sin n
 function promedioMayorA70() {
     let calificaciones = [65, 80, 90, 50,75];
     let suma = 0;
@@ -341,4 +328,5 @@ function promedioParesImpares() {
     let promedioImpares = sumaImpares / contadorImpares;
     console.log("Promedio de pares: " + promedioPares);
     console.log("Promedio de impares: " + promedioImpares);
+
 }
